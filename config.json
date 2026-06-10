@@ -1,0 +1,41 @@
+{
+  "public": {
+    "default": {
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/5KCWo3ZqW6fofnGGmm4izR/graphql",
+      "headers": {
+        "all": {
+          "Store": "mp_default"
+        },
+        "cs": {
+          "AC-View-ID": "ea89cd49-1061-417b-9fc4-bccc7ee73c91",
+          "AC-Source-Locale": "mp_default",
+          "AC-Price-Book-ID": "{{PRICE_BOOK_ID}}",
+          "Magento-Store-Code": "mp_website_store",
+          "Magento-Store-View-Code": "mp_default",
+          "Magento-Website-Code": "mp_catalog",
+          "x-api-key": "{{API_KEY}}",
+          "Magento-Environment-Id": "{{ENVIRONMENT_ID}}"
+        }
+      },
+      "commerce-b2b-enabled": false,
+      "commerce-companies-enabled": false,
+      "commerce-assets-enabled": true,
+      "adobe-commerce-optimizer": true,
+      "analytics": {
+        "base-currency-code": "{{CURRENCY_CODE}}",
+        "environment": "Testing",
+        "environment-id": "5KCWo3ZqW6fofnGGmm4izR",
+        "locale": "{{LOCALE}}",
+        "store-url": "{{STORE_URL}}",
+        "store-view-currency-code": "{{CURRENCY_CODE}}",
+        "storefront-template": "{{TEMPLATE_TYPE}}",
+        "view-id": "{{CATALOG_VIEW_ID}}"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "2"
+        }
+      }
+    }
+  }
+}
